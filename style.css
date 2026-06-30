@@ -100,6 +100,20 @@ img {
   opacity: 1 !important;
 }
 
+.portfolio-link {
+  color: inherit;
+  border-radius: 8px;
+  font-weight: 600 !important;
+  display: inline-block;
+  transition: background 0.2s, padding 0.2s;
+}
+
+.portfolio-link:hover {
+  background: #9E3FFD;
+  color: #fff !important;
+  padding: 0.8rem 2.4rem;
+}
+
 .mobile-toggle {
   display: none;
   background: none;
@@ -175,6 +189,25 @@ img {
   background: #7A2FCC;
 }
 
+.linkedin-btn {
+  display: inline-block;
+  padding: 0.8rem 1.2rem;
+  background: #0A66C2;
+  color: #fff;
+  border-radius: 8px;
+  transition: background 0.2s;
+  vertical-align: middle;
+}
+
+.linkedin-btn:hover {
+  background: #055399;
+}
+
+.linkedin-btn svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /* Section shared */
 section {
   padding: 8rem 2rem;
@@ -247,12 +280,27 @@ section {
 
 .service-tagline {
   text-align: center;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   line-height: 1.6;
-  color: #2D2D2D;
+  color: #9E3FFD;
   max-width: 700px;
-  margin: 4rem auto 0;
-  font-weight: 400;
+  margin: 4rem auto 2rem;
+  font-weight: 700;
+}
+
+.service-contact-btn {
+  background: #9E3FFD;
+  color: #fff !important;
+  padding: 0.8rem 2.4rem;
+  border-radius: 8px;
+  font-weight: 600 !important;
+  display: inline-block;
+  transition: background 0.2s !important;
+}
+
+.service-contact-btn:hover {
+  background: #7A2FCC !important;
+  opacity: 1 !important;
 }
 
 /* Impact */
