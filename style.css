@@ -66,6 +66,14 @@ img {
   font-weight: 600;
   color: #000;
   letter-spacing: -0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.logo-img {
+  height: 3.8rem;
+  width: auto;
 }
 
 .nav-links {
